@@ -17,11 +17,11 @@
     </tr>
     <c:forEach var="emp" items="${allEmps}">
 
-        <c:url var="updateButton" value="/updateInfo">
+        <c:url var="updateButton" value="//updateInfo">
             <c:param name="empId" value="${emp.id}"/>
         </c:url>
 
-        <c:url var="deleteButton" value="/deleteEmployee">
+        <c:url var="deleteButton" value="//deleteEmployee">
             <c:param name="empId" value="${emp.id}"/>
         </c:url>
 
